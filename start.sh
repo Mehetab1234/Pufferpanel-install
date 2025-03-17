@@ -22,7 +22,7 @@ curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/scr
 sudo apt update
 sudo apt-get install pufferpanel
 echo -e "adding user✅"
-sudo pufferpanel user add
+sudo pufferpanel user add -email admin@gmail.com --name admin --password admin1234 --admin
 echo -e "enabling Pufferpanel ✅"
 sudo systemctl enable --now pufferpanel
 echo -e "installation complete ✅"
