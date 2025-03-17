@@ -10,7 +10,6 @@ echo -e "#                @CRAFTINGCRAZEGAMING"
 echo -e "#"
 echo -e "#################################################################################################################"
  read -p "do you install Pufferpanel YES/NO:" install_pufferpanel
-fi
 case $install_pufferpanel  in [yY][eE][sS]) 
 echo -e "Installing some commands ✅"
 sudo apt update
@@ -28,7 +27,6 @@ echo -e "installation complete ✅"
 #re_clear terminal 
 clear
 case in [Nn][Oo]
-fi
 echo -e "installation skiped ❌"
 read -p "do you  install ngrok Yes/No:"
 case in [Yy][Ee][Ss] 
@@ -40,7 +38,6 @@ apt install -y ngrok
 echo -e "add your authtoken" 
 then 
 echo -e "add youd edage command"
-fi
 case in [Nn][Oo]
 echo -e "ngrok installation stopped 🚫"
 
